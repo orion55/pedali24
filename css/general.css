@@ -1,0 +1,141 @@
+.article_content .top_offset {
+    margin: 0 auto;
+}
+
+#wpshop_vitrina > div.vitrina_inn.clearfix .item div[style] {
+    min-height: 450px !important;
+}
+
+div.wpshop_buy td.wpshop_count input {
+    height: auto;
+    width: auto;
+    font-size: 15px;
+}
+
+article.article_one div.article_content > p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+div.wpshop_buy table {
+    margin-top: 0;
+}
+
+#payments-table ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cform input.sendbutton {
+    padding: 5px 40px;
+}
+
+p.cf-sb {
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1199px) {
+    .recycle_bin tr.rb_item td.rb_num input {
+        font-size: 15px;
+    }
+
+    #payments-table ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    div.wpshop_bag {
+        margin: 0 auto;
+    }
+
+
+    #delivery_cost[style] {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #wpshop_vitrina > div.vitrina_inn.clearfix .item {
+        width: 100%;
+    }
+
+    #wpshop_vitrina > div.vitrina_inn.clearfix .item div[style] {
+        min-height: 450px !important;
+    }
+
+    #filter form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .recycle_bin tr.rb_item td.rb_num input {
+        font-size: 15px;
+    }
+
+    #payments-table {
+        text-align: center;
+    }
+
+    #payments-table ul li {
+        float: none;
+    }
+
+    #payments-table ul li::before {
+        left: calc(50% - 100px);
+    }
+
+    body > #wpshop_background_alert_put_to_cart > div {
+        width: 90% !important;
+        height: auto !important;
+    }
+
+    div.wpshop_bag {
+        margin: 0 auto;
+    }
+
+    article.article_one div.article_content > form {
+        width: 100%;
+    }
+
+    article.article_one div.article_content > form fieldset.cf-fs1 > ol.cf-ol li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .cform label {
+        width: auto;
+        padding-bottom: 5px;
+    }
+
+    .cform input, .cform textarea {
+        width: 90%;
+    }
+
+    .article_content ol li::before {
+        background-color: #eee;
+        left: 16px;
+    }
+
+    span.reqtxt, span.emailreqtxt {
+        display: none;
+    }
+
+
+    #delivery_cost[style] {
+        display: block !important;
+    }
+
+    .cform fieldset {
+        padding-bottom: 0;
+    }
+}
