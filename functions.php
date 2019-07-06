@@ -608,7 +608,7 @@ add_filter('comment_form_default_fields', 'ninjatheme_remove_url_field', 10, 1);
 add_filter('jpeg_quality', 'ninjatheme_jpeg_quality'); // Change img quality
 add_filter('pre_get_posts', 'nt_search_filter'); // Search Filter
 add_filter('wpcf7_load_css', '__return_false'); // Dismiss loading Contact Form 7 styles
-add_filter('acf/settings/show_admin', '__return_false');
+//add_filter('acf/settings/show_admin', '__return_false');
 
 // Remove Filters
 remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether

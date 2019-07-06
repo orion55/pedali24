@@ -36,6 +36,18 @@ p.cf-sb {
     text-align: center;
 }
 
+div.cf_info {
+    width: 100%;
+    font-size: 15px;
+}
+
+div.cf_info h4 {
+    padding-top: 20px;
+}
+.section_numbers div.number_wrp div.number{
+    width: auto;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
     .recycle_bin tr.rb_item td.rb_num input {
         font-size: 15px;
@@ -123,7 +135,7 @@ p.cf-sb {
 
     .article_content ol li::before {
         background-color: #eee;
-        left: 16px;
+        left: 19px;
     }
 
     span.reqtxt, span.emailreqtxt {
@@ -137,5 +149,14 @@ p.cf-sb {
 
     .cform fieldset {
         padding-bottom: 0;
+    }
+
+    div.article_page.top_padding > div.container > div.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.section_articles_inside article.article_one div.article_meta_secondary div.share {
+        display: none;
     }
 }
